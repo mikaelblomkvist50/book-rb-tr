@@ -122,7 +122,7 @@ $ <b>rm -rf spec/toy_robot_spec.rb</b>
 $ <b>mkdir spec/toy_robot && touch spec/toy_robot/robot_spec.rb</b>
 </pre></code>
 
-spec/toy_robot/robot_spec.rb:
+`spec/toy_robot/robot_spec.rb`:
 ```ruby
 require 'spec_helper'
 
@@ -168,7 +168,7 @@ Finished in 0.0004 seconds (files took 0.11652 seconds to load)
 $ <b>touch lib/toy_robot/robot.rb</b>
 </pre></code>
 
-lib/toy_robot/robot.rb:
+`lib/toy_robot/robot.rb`:
 ```ruby
 module ToyRobot
   class Robot
