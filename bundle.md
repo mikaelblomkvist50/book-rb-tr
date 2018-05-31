@@ -22,7 +22,7 @@ Initializing git repo in /Users/mikaelblomkvist/rb_tr_book
 Gem 'rb_tr_book' was successfully created. For more information on making a RubyGem visit https://bundler.io/guides/creating_gem.html
 </pre></code>
 
-toy_robot.gemspec:
+`toy_robot.gemspec`:
 ```ruby
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
@@ -91,7 +91,7 @@ Use `bundle info [gemname]` to see where a bundled gem is installed.
 
 This will install all the dependencies (including RSpec) listed in the gemspec. Then run to test RSpec is working:
 <pre><code>
-$ <b>$ rspec spec</b>
+$ <b>rspec spec</b>
 
 ToyRobot
   has a version number
@@ -170,14 +170,14 @@ $ <b>touch lib/toy_robot/robot.rb</b>
 
 lib/toy_robot/robot.rb:
 ```ruby
-module ToyRobotRyanBigg
+module ToyRobot
   class Robot
 
   end
 end
 ```
 
-lib/toy_robot.rb:
+`lib/toy_robot.rb`:
 ```ruby
 require "toy_robot/version"
 require "toy_robot/robot"
