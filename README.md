@@ -1,4 +1,4 @@
-# RbTrBook
+# BookRbTr
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/toy_robot`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rb_tr_book'
+gem 'book_rb_tr'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rb_tr_book
+    $ gem install book_rb_tr
 
 ## Usage
 
